@@ -33,6 +33,10 @@ export default defineConfig({
           fileURLToPath(new URL(file, import.meta.url)),
         ])
       ),
+      output: {
+        assetFileNames: 'assets/[name][extname]',
+        entryFileNames: '[name].js',
+      },
     },
   },
   resolve: {
