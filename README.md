@@ -7,6 +7,8 @@ Building a design system for personal projects
 ## Resources
 
 - [Bun JS](https://bun.sh/) for creating, building, & running app
+- [Tailwind CSS](https://tailwindui.com/) for styling
+- [shadcn/ui](https://ui.shadcn.com/) for scaffolding [Radix UI](https://www.radix-ui.com/) primitive ui components
 
 ## References
 
