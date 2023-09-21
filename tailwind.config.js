@@ -4,11 +4,9 @@ import tailwindcssAnimate from 'tailwindcss-animate';
 export default {
   darkMode: ['class'],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-    './lib/**/*.{ts,tsx}',
+    './lib/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@pppaaattt/goodesign/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     container: {
