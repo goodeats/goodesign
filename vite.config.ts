@@ -12,4 +12,9 @@ export default defineConfig({
       formats: ['es'],
     },
   },
+  resolve: {
+    alias: {
+      '#lib': resolve(__dirname, './lib'),
+    },
+  },
 });

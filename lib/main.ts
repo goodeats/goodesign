@@ -1,1 +1,1 @@
-console.log('hello world');
+export { Button } from './components/ui/button';
