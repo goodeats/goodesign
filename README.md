@@ -6,7 +6,7 @@ Building a design system for personal projects
 
 ## Resources
 
-- [Bun JS](https://bun.sh/) for creating app
+- [Bun JS](https://bun.sh/) for creating, building, & running app
 
 ## References
 
