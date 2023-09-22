@@ -6,7 +6,7 @@ interface ComponentsProps {}
 
 const Components: React.FC<ComponentsProps> = () => {
   return (
-    <div>
+    <div className="w-full">
       <h2>Components!</h2>
       <hr />
       <LayerComponents />

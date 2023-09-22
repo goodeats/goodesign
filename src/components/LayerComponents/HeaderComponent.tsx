@@ -1,14 +1,14 @@
-import { Header } from '#lib/main';
+import { Article, Header } from '#lib/main';
 import React from 'react';
 
 interface HeaderComponentProps {}
 
 const HeaderComponent: React.FC<HeaderComponentProps> = () => {
   return (
-    <div>
+    <Article>
       <h3>Header!</h3>
       <Header />
-    </div>
+    </Article>
   );
 };
 
