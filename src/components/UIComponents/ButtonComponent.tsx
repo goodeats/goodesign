@@ -6,7 +6,7 @@ interface ButtonProps {}
 const ButtonComponent: React.FC<ButtonProps> = () => {
   return (
     <div>
-      <h2>ButtonComponent!</h2>
+      <h3>ButtonComponent!</h3>
       <div className="card">
         <Button variant="secondary" size="lg">
           click

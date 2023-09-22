@@ -6,7 +6,7 @@ interface FlexComponentProps {}
 const FlexComponent: React.FC<FlexComponentProps> = () => {
   return (
     <div>
-      <h2>Flex!</h2>
+      <h3>Flex!</h3>
       <Flex direction="col" gap="3">
         <div className="w-1/2 h-12 bg-red-500">
           <span>yoyo</span>
