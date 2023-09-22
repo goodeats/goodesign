@@ -1,14 +1,15 @@
 import React from 'react';
 import { ButtonComponent } from './ButtonComponent';
+import { Section } from '#lib/main';
 
 interface UiComponentsProps {}
 
 const UiComponents: React.FC<UiComponentsProps> = () => {
   return (
-    <div>
+    <Section>
       <h2>UiComponents!</h2>
       <ButtonComponent />
-    </div>
+    </Section>
   );
 };
 

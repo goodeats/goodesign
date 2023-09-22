@@ -9,7 +9,6 @@ function App() {
         <h1>Goodesign</h1>
         <Nav>Design System in progress</Nav>
       </Header>
-      <hr />
       <Main>
         <Components />
       </Main>
