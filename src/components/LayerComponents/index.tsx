@@ -5,6 +5,7 @@ import { NavComponent } from './NavComponent';
 import { MainComponent } from './MainComponent';
 import { ArticleComponent } from './ArticleComponent';
 import { SectionComponent } from './SectionComponent';
+import { AsideComponent } from './AsideComponent';
 import { Section } from '#lib/main';
 
 interface LayerProps {}
@@ -19,6 +20,7 @@ const LayerComponents: React.FC<LayerProps> = () => {
       <MainComponent />
       <ArticleComponent />
       <SectionComponent />
+      <AsideComponent />
     </Section>
   );
 };

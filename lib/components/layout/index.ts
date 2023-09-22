@@ -1,3 +1,4 @@
+export { Aside, asideVariants, type AsideProps } from './aside';
 export { Article, articleVariants, type ArticleProps } from './article';
 export { Flex, flexVariants, type FlexProps } from './flex';
 export { Header, headerVariants, type HeaderProps } from './header';
