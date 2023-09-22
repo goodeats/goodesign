@@ -11,7 +11,7 @@ const wrapperVariants = cva('wrapper', {
       center: 'flex justify-center items-center',
       column: 'flex flex-col',
       row: 'flex flex-row',
-      page: 'flex flex-col min-h-screen',
+      page: 'flex h-screen flex-col justify-between',
     },
   },
   defaultVariants: {
