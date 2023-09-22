@@ -1,4 +1,4 @@
-import { Header, Nav } from '#lib/main.ts';
+import { Header, Main, Nav } from '#lib/main.ts';
 import './App.css';
 import { Components } from './components/index.tsx';
 
@@ -10,7 +10,9 @@ function App() {
         <Nav>Design System in progress</Nav>
       </Header>
       <hr />
-      <Components />
+      <Main>
+        <Components />
+      </Main>
       <p>Thanks ✌️</p>
     </>
   );
