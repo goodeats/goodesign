@@ -1,8 +1,12 @@
 export { Aside, asideVariants, type AsideProps } from './aside';
 export { Article, articleVariants, type ArticleProps } from './article';
+export { Body, bodyVariants, type BodyProps } from './body';
+export { Container, containerVariants, type ContainerProps } from './container';
 export { Flex, flexVariants, type FlexProps } from './flex';
 export { Footer, footerVariants, type FooterProps } from './footer';
+export { Grid, gridVariants, type GridProps } from './grid';
 export { Header, headerVariants, type HeaderProps } from './header';
 export { Nav, navVariants, type NavProps } from './nav';
 export { Main, mainVariants, type MainProps } from './main';
 export { Section, sectionVariants, type SectionProps } from './section';
+export { Wrapper, wrapperVariants, type WrapperProps } from './wrapper';
