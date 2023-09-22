@@ -8,9 +8,7 @@ const Components: React.FC<ComponentsProps> = () => {
   return (
     <div className="w-full">
       <h2>Components!</h2>
-      <hr />
       <LayerComponents />
-      <hr />
       <UiComponents />
     </div>
   );

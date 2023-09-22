@@ -1,4 +1,4 @@
-import { Header, Main, Nav } from '#lib/main.ts';
+import { Footer, Header, Main, Nav } from '#lib/main.ts';
 import './App.css';
 import { Components } from './components/index.tsx';
 
@@ -12,7 +12,7 @@ function App() {
       <Main>
         <Components />
       </Main>
-      <p>Thanks ✌️</p>
+      <Footer>Thanks ✌️</Footer>
     </>
   );
 }
