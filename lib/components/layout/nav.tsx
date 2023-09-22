@@ -4,10 +4,10 @@ import * as React from 'react';
 
 import { cn } from '#lib/utils';
 
-const headerVariants = cva('header', {
+const navVariants = cva('nav', {
   variants: {
     variant: {
-      default: 'container py-6',
+      default: 'flex items-center justify-between',
     },
   },
   defaultVariants: {
@@ -15,24 +15,24 @@ const headerVariants = cva('header', {
   },
 });
 
-export interface HeaderProps
+export interface NavProps
   extends React.HTMLAttributes<HTMLElement>,
-    VariantProps<typeof headerVariants> {
+    VariantProps<typeof navVariants> {
   asChild?: boolean;
 }
 
-const Header = React.forwardRef<HTMLElement, HeaderProps>(
+const Nav = React.forwardRef<HTMLElement, NavProps>(
   ({ className, variant, asChild = false, ...props }, ref) => {
-    const Comp = asChild ? Slot : 'header';
+    const Comp = asChild ? Slot : 'nav';
     return (
       <Comp
-        className={cn(headerVariants({ variant, className }))}
+        className={cn(navVariants({ variant, className }))}
         ref={ref}
         {...props}
       />
     );
   }
 );
-Header.displayName = 'Header';
+Nav.displayName = 'Nav';
 
-export { Header, headerVariants };
+export { Nav, navVariants };
